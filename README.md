@@ -262,7 +262,7 @@ uv run python adapters/llmsr_bench/run_parity_test.py \
   --llmsrbench-python ~/miniforge3/envs/llmsrbench/bin/python \
   --harbor-python ~/harbor/.venv/bin/python \
   --llmsrbench-config ~/harbor/adapters/llmsr_bench/configs/llmdirect_gpt4o_mini.yaml \
-  --trials 4 \
+  --trials 3 \
   --per-dataset 23 \
   --task-seed 42 \
   --output-dir parity_out
